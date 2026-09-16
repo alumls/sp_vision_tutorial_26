@@ -419,6 +419,11 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libfmt.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
 				"fragment" : "io/libio.a",
 				"role" : "libraries"
 			},

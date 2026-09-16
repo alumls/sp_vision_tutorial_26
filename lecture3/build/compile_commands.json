@@ -31,12 +31,12 @@
 },
 {
   "directory": "/home/alumls/Desktop/sp_vision_tutorial_26/lecture3/build/tools",
-  "command": "/usr/bin/g++  -D_GLIBCXX_USE_CXX11_ABI=1 -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework  -g   -std=gnu++17 -o CMakeFiles/tools.dir/img_tools.cpp.o -c /home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework/tools/img_tools.cpp",
+  "command": "/usr/bin/g++  -DFMT_LOCALE -DSPDLOG_FMT_EXTERNAL -D_GLIBCXX_USE_CXX11_ABI=1 -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework  -g   -std=gnu++17 -o CMakeFiles/tools.dir/img_tools.cpp.o -c /home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework/tools/img_tools.cpp",
   "file": "/home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework/tools/img_tools.cpp"
 },
 {
   "directory": "/home/alumls/Desktop/sp_vision_tutorial_26/lecture3/build/tools",
-  "command": "/usr/bin/g++  -D_GLIBCXX_USE_CXX11_ABI=1 -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework  -g   -std=gnu++17 -o CMakeFiles/tools.dir/logger.cpp.o -c /home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework/tools/logger.cpp",
+  "command": "/usr/bin/g++  -DFMT_LOCALE -DSPDLOG_FMT_EXTERNAL -D_GLIBCXX_USE_CXX11_ABI=1 -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework  -g   -std=gnu++17 -o CMakeFiles/tools.dir/logger.cpp.o -c /home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework/tools/logger.cpp",
   "file": "/home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework/tools/logger.cpp"
 }
 ]

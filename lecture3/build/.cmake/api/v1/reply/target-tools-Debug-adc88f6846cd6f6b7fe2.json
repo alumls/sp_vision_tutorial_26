@@ -14,6 +14,8 @@
 		"commands" : 
 		[
 			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
 			"add_definitions",
 			"find_package",
 			"include_directories"
@@ -36,41 +38,53 @@
 				"parent" : 0
 			},
 			{
-				"file" : 2
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
 			},
 			{
 				"command" : 2,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
 				"file" : 2,
 				"line" : 16,
-				"parent" : 2
-			},
-			{
-				"file" : 1,
-				"parent" : 3
-			},
-			{
-				"command" : 1,
-				"file" : 1,
-				"line" : 548,
 				"parent" : 4
 			},
 			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
 				"command" : 3,
+				"file" : 1,
+				"line" : 548,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
 				"file" : 2,
 				"line" : 18,
-				"parent" : 2
+				"parent" : 4
 			},
 			{
-				"command" : 3,
+				"command" : 5,
 				"file" : 2,
 				"line" : 19,
-				"parent" : 2
+				"parent" : 4
 			},
 			{
-				"command" : 3,
+				"command" : 5,
 				"file" : 2,
 				"line" : 20,
-				"parent" : 2
+				"parent" : 4
 			}
 		]
 	},
@@ -89,22 +103,30 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 5,
+					"backtrace" : 2,
+					"define" : "FMT_LOCALE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SPDLOG_FMT_EXTERNAL"
+				},
+				{
+					"backtrace" : 7,
 					"define" : "_GLIBCXX_USE_CXX11_ABI=1"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 8,
 					"path" : "/usr/include/eigen3"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 9,
 					"path" : "/usr/include/opencv4"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 10,
 					"path" : "/home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework"
 				}
 			],

@@ -139,6 +139,7 @@ main: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
 main: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
 main: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
 main: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
+main: /usr/lib/x86_64-linux-gnu/libfmt.a
 main: io/libio.a
 main: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.6.2
 main: /usr/lib/libopenvino.so.2024.6.0

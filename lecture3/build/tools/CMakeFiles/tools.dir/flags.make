@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_FLAGS = -g   -std=gnu++17
 
-CXX_DEFINES = -D_GLIBCXX_USE_CXX11_ABI=1
+CXX_DEFINES = -DFMT_LOCALE -DSPDLOG_FMT_EXTERNAL -D_GLIBCXX_USE_CXX11_ABI=1
 
 CXX_INCLUDES = -I/usr/include/eigen3 -I/usr/include/opencv4 -I/home/alumls/Desktop/sp_vision_tutorial_26/lecture3/homework 
 
