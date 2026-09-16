@@ -6,10 +6,13 @@
 int main()
 {
     // 初始化相机、yolo类
+    std::string config_path = "config/config.yaml";
+    auto_aim::YOLO yolo(config_path);
+    auto armors = yolo.detect(img);
     
     // while (1) {
         // 调用相机读取图像
-
+        
 
         // 调用yolo识别装甲板
 

@@ -2,6 +2,7 @@ yolo_name: yolov5
 classify_model: assets/tiny_resnet.onnx
 yolov5_model_path: assets/yolov5.xml
 device: CPU
+# zhi xin du
 min_confidence: 0.8
 use_traditional: true
 roi: 
