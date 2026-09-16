@@ -3,28 +3,28 @@
 #include "opencv2/opencv.hpp"
 #include "tools/img_tools.hpp"
 
+
 int main()
 {
     // 初始化相机、yolo类
-    std::string config_path = "config/config.yaml";
-    auto_aim::YOLO yolo(config_path);
-    auto armors = yolo.detect(img);
+    auto_aim::MyCamera camera;
+    auto_aim::YOLO yolo(std::string("config/yolo_config.yaml"), true);
     
-    // while (1) {
-        // 调用相机读取图像
+    while (1) {
+        //调用相机读取图像
         
 
-        // 调用yolo识别装甲板
+        //调用yolo识别装甲板
 
 
 
-        // 显示图像
+        //显示图像
         // cv::resize(img, img , cv::Size(640, 480));
         // cv::imshow("img", img);
         // if (cv::waitKey(0) == 'q') {
         //     // break;
         // }
-    // }
+    }
 
     return 0;
 }

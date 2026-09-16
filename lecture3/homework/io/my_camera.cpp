@@ -2,6 +2,8 @@
 
 namespace auto_aim {
 
+cv::Mat transfer_frame(MV_FRAME_OUT& raw);
+
 MyCamera::MyCamera() {
     handle_ = nullptr;
     exposure_time_ = 10000;
@@ -56,9 +58,9 @@ int MyCamera::get_image(cv::Mat & img) {
       return -1;
     }
 
-    img = transfer(raw);
-    cv::imshow("img", img);
-    cv::waitKey(0);
+    img = auto_aim::transfer_frame(raw);
+    // cv::imshow("img", img);
+    // cv::waitKey(0);
 
     ret = MV_CC_FreeImageBuffer(handle_, &raw);
     if (ret != MV_OK) {
@@ -87,7 +89,7 @@ int MyCamera::close() {
     return 0;
 }
 
-cv::Mat transfer(MV_FRAME_OUT& raw)
+cv::Mat transfer_frame(MV_FRAME_OUT& raw)
 {
     MV_CC_PIXEL_CONVERT_PARAM cvt_param;
     cv::Mat img(cv::Size(raw.stFrameInfo.nWidth, raw.stFrameInfo.nHeight), CV_8U, raw.pBufAddr);
